@@ -28,12 +28,17 @@
 
 .App-section {
   flex: 1 1 0;
-  background-color: hsl(220deg 13% 13%);
+  background-color: hsl(218, 27%, 49%);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.character-detail, .skillCheck {
+  display:flex;
+  justify-content: space-around;
 }
 
 @keyframes App-logo-spin {
